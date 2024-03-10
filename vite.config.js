@@ -4,8 +4,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(() => {
   return {
     build: {
-      base:"/repository-name/",
-
+      base:"/react-understanding-with-jsx/",
       outDir: 'build',
     },
     plugins: [react()],
