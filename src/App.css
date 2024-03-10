@@ -1,0 +1,18 @@
+/* add your styles here */
+.kg{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 3%;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1%;
+    row-gap: 1%;
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+}
